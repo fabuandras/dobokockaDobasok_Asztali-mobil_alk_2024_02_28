@@ -49,7 +49,20 @@ public class DobokockaDobasok {
             System.out.println("\n\t" + (i + 1) + " volt " + statisztika[i] + " db");
         }
         
-        //2. feladat:
+        
+        
+        /*
+        *** 2. feladat: ***
+        A felhasználó adja meg, hogy mennyit akar dobni kettő darab hatoldalú dobókockával!
+	Az dobások statisztikáját jelenítsük meg vízszintes oszlopdiagrammal!
+	A diagram csillagokból álljon!
+	Egy lehetséges kimenet 9 dobás esetén:
+	2 ******** (4 db)
+	3 **** (2 db)
+	8 ****** (3 db)
+	Lehet minden értéket is megjeleníteni, de gondold át, mi legyen pl. 500 dobásnál?
+        */
+        
         System.out.println("\n2. feladat:");
         System.out.print("Hányszor szeretne dobni kettő darab hatoldalú dobókockával, írja meg: ");
         int dobásokSzáma = sc.nextInt();
